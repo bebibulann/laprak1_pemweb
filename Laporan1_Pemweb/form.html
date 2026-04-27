@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form - Laporan Praktikum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <a href="index.html">Soal Teori</a>
+        <a href="jawaban.html">Jawaban Teori</a>
+        <a href="form.html" class="active">Praktikum Form</a>
+    </nav>
+
+    <div class="form-section">
+        <h1 style="text-align: center; color: #4a67a1; margin: 10px; margin-bottom: 18px;">Form Data Diri</h1>
+        <form action="success.html" method="GET">
+            <table>
+                <tr>
+                    <td>Nama:</td>
+                    <td><input type="text" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td>NIM:</td>
+                    <td><input type="text" name="nim" maxlength="8" required></td> </tr>
+                <tr>
+                    <td>Tanggal:</td>
+                    <td><input type="date" name="tanggal" required></td> </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btn-submit" style="margin-top: 15px; margin-bottom: 9px;">Kirim Data</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
